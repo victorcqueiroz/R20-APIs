@@ -23,7 +23,7 @@ function countDown() {
         width='32px' height='32px' style='float: left;'> \
         <div style='float: left; height: 16px; \
         vertical-align:middle; margin: 8px 0 0 10px;'>\
-        2 minutos restantes!</div></div>");
+        2 mins restantes!</div></div>");
     }
 
     if (seconds == 61) {
@@ -33,7 +33,7 @@ function countDown() {
         width='32px' height='32px' style='float: left;'> \
         <div style='float: left; height: 16px; \
         vertical-align:middle; margin: 8px 0 0 10px;'>\
-        1 minuto restante!</div></div>");
+        1 min restante!</div></div>");
     }
     if (seconds == 31) {
         sendChat("GM", "<div style='height:32px; border:1px solid #CCC; \
@@ -42,7 +42,7 @@ function countDown() {
         width='32px' height='32px' style='float: left;'> \
         <div style='float: left; height: 16px; \
         vertical-align:middle; margin: 8px 0 0 10px;'>\
-        30 segundos restantes!</div></div>");
+        30s restantes!</div></div>");
     }
 
     if (seconds == 16) {
@@ -52,7 +52,7 @@ function countDown() {
         width='32px' height='32px' style='float: left;'> \
         <div style='float: left; height: 16px; \
         vertical-align:middle; margin: 8px 0 0 10px;'>\
-        15 segundos restantes!</div></div>");
+        15s restantes!</div></div>");
     }
 
     if (seconds <= 0) {
@@ -62,7 +62,7 @@ function countDown() {
         width='32px' height='32px' style='float: left;'> \
         <div style='float: left; height: 16px; \
         vertical-align:middle; margin: 8px 0 0 10px;'>\
-        Acabou o tempo!!!</div></div>");
+        Acabou o tempo!</div></div>");
 
         clearInterval(interval);
     }
@@ -91,7 +91,7 @@ on("chat:message", function(msg) {
             width='32px' height='32px' style='float: left;'> \
             <div style='float: left; height: 16px; \
             vertical-align:middle; margin: 8px 0 0 10px;'>\
-            Cronômetro iniciado! seconds segundos</div></div>");
+            Cronometro iniciado!</div></div>");
     }
     // When the GM types !t, start a timer for a default number of seconds
     else if(msg.type == "api" && msg.content.indexOf("!t") !== -1) {
@@ -106,7 +106,7 @@ on("chat:message", function(msg) {
             width='32px' height='32px' style='float: left;'> \
             <div style='float: left; height: 16px; \
             vertical-align:middle; margin: 8px 0 0 10px;'>\
-            Cronômetro iniciado - 1 minuto!</div></div>");
+            Cronometro iniciado - 1 minuto!</div></div>");
     }
 });
 
