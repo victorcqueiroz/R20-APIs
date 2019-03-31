@@ -1,6 +1,5 @@
-// GitHub:    https://github.com/JamesMowery/turn-timer
-// By:        James Mowery
-// Contact:   https://app.roll20.net/users/1001679/james-mowery
+// Created By: James Mowery
+// Translated by: Victor Queiroz
 
 var seconds = 0;
 var interval = null;
@@ -25,7 +24,6 @@ function countDown() {
         vertical-align:middle; margin: 8px 0 0 10px;'>\
         2 mins restantes!</div></div>");
     }
-
     if (seconds == 61) {
         sendChat("GM", "<div style='height:32px; border:1px solid #CCC; \
         font-weight: bold;'><img src=\
@@ -106,7 +104,7 @@ on("chat:message", function(msg) {
             width='32px' height='32px' style='float: left;'> \
             <div style='float: left; height: 16px; \
             vertical-align:middle; margin: 8px 0 0 10px;'>\
-            Cronometro iniciado - 1 minuto!</div></div>");
+            Cronometro iniciado!</div></div>");
     }
 });
 
