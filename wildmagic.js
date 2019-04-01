@@ -15,6 +15,6 @@ function countDown() {
 	var wildmagic = 2;
     if (wildmagic == 1 || wildmagic == 2) {
         sendChat("Magia Selvagem!" (wildmagic): Role nessa tabela, no começo de cada um dos seus turnos pelo proximo minuto, ignorando esse resultado em rolagens subsequentes.");
-	};
+	}
 
 
