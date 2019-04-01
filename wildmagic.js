@@ -19,15 +19,4 @@ function countDown() {
 }}
 		 
 
-on("chat:message", function(msg) {
-    'use strict'
 
-    // When the GM types !t <number>, start a timer for <number> seconds
-    if(msg.type == "api" && msg.content.indexOf("!wildmagic")) {
-        
-   
-});
-
-on("ready", function() {
-    'use strict';
-});
