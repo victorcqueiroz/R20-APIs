@@ -27,7 +27,7 @@ on("chat:message", function(msg) {
     'use strict'
 
     // When the GM types !t <number>, start a timer for <number> seconds
-    if(msg.type == "api" && msg.content.indexOf("!t ") !== -1) {
+    if(msg.type == "api" && msg.content.indexOf("!wildmagic ") !== -1) {
         // Clear the previous timer if running.
         clearInterval(interval);
 
