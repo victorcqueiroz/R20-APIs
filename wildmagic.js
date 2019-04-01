@@ -16,9 +16,6 @@ function countDown() {
     if (wildmagic == 1 || wildmagic == 2) {
         sendChat("Magia Selvagem!" (wildmagic): Role nessa tabela, no começo de cada um dos seus turnos pelo proximo minuto, ignorando esse resultado em rolagens subsequentes.");
     }
-	if (wildmagic == 3 || wildmagic == 4) {
-        sendChat("Magia Selvagem!" (wildmagic): Pelo proximo minuto, voce pode ver qualquer criatura invisivel, se você tiver linha de visao");
-    }
 }
 
 on("chat:message", function(msg) {
