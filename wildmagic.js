@@ -4,7 +4,7 @@
 // Created By: James Mowery
 // Translated by: Victor Queiroz
 
-var wildmagic = 0;
+var wildmagic = 2;
 var interval = null;
 
 var Magic = Magic || (function() {
